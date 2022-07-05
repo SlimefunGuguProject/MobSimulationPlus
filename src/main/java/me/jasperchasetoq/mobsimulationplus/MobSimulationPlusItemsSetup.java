@@ -17,7 +17,7 @@ public class MobSimulationPlusItemsSetup {
 
         public static void setup(@Nonnull MobSimulationPlus plugin)
         {
-            new MobDataCard("幻翼", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Phantom", MobDataTier.ADVANCED, new ItemStack[]{
                     new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32),
                     new ItemStack(Material.PHANTOM_MEMBRANE, 32), MobData.EMPTY_DATA_CARD, new ItemStack(Material.PHANTOM_MEMBRANE, 32),
                     new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32),
@@ -56,7 +56,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.RED_WOOL, 1)
                     .addDrop(Material.BLACK_WOOL, 1)
                     .register(plugin);
-            new MobDataCard("猪", MobDataTier.PASSIVE, new ItemStack[]{
+            new MobDataCard("Pig", MobDataTier.PASSIVE, new ItemStack[]{
                     new ItemStack(Material.PORKCHOP, 32), new ItemStack(Material.CARROT_ON_A_STICK, 1), new ItemStack(Material.COOKED_PORKCHOP, 32),
                     new ItemStack(Material.SADDLE, 1), MobData.EMPTY_DATA_CARD, new ItemStack(Material.SADDLE, 1),
                     new ItemStack(Material.COOKED_PORKCHOP, 32), new ItemStack(Material.CARROT_ON_A_STICK, 1), new ItemStack(Material.PORKCHOP, 32),
@@ -66,7 +66,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.CARROT, 50)
                     .addDrop(Material.SADDLE, 750)
                     .register(plugin);
-            new MobDataCard("僵尸猪灵", MobDataTier.NEUTRAL, new ItemStack[]{
+            new MobDataCard("Zombified Piglin", MobDataTier.NEUTRAL, new ItemStack[]{
                     new ItemStack(Material.ROTTEN_FLESH, 64), new ItemStack(Material.CARROT, 64), new ItemStack(Material.GOLD_INGOT, 64),
                     new ItemStack(Material.GOLDEN_SWORD, 1), MobData.EMPTY_DATA_CARD, new ItemStack(Material.GOLDEN_SWORD, 1),
                     new ItemStack(Material.GOLD_INGOT, 64), new ItemStack(Material.CARROT, 64), new ItemStack(Material.ROTTEN_FLESH, 64),
@@ -75,7 +75,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(SlimefunItems.STRANGE_NETHER_GOO, 1000)
 
                     .register(plugin);
-            new MobDataCard("猪灵", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Piglin", MobDataTier.ADVANCED, new ItemStack[]{
                     new ItemStack(Material.GOLD_BLOCK, 64), new ItemStack(Material.GOLDEN_CARROT, 64), new ItemStack(Material.GOLD_BLOCK, 64),
                     new ItemStack(Material.ENCHANTED_GOLDEN_APPLE, 1), MobData.EMPTY_DATA_CARD, new ItemStack(Material.ENCHANTED_GOLDEN_APPLE, 1),
                     new ItemStack(Material.GOLD_BLOCK, 64), new ItemStack(Material.GOLDEN_CARROT, 64), new ItemStack(Material.GOLD_BLOCK, 64),
@@ -86,7 +86,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(SlimefunItems.STRANGE_NETHER_GOO, 10)
 
                     .register(plugin);
-            new MobDataCard("掠夺者", MobDataTier.HOSTILE, new ItemStack[]{
+            new MobDataCard("Pillager", MobDataTier.HOSTILE, new ItemStack[]{
                     new ItemStack(Material.EMERALD, 64), new ItemStack(Material.BLACK_BANNER, 16), new ItemStack(Material.EMERALD, 64),
                     new ItemStack(Material.CROSSBOW, 1), MobData.EMPTY_DATA_CARD, new ItemStack(Material.CROSSBOW, 1),
                     new ItemStack(Material.EMERALD, 64), new ItemStack(Material.BLACK_BANNER, 16), new ItemStack(Material.EMERALD, 64),
@@ -95,7 +95,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.CROSSBOW, 10)
 
                     .register(plugin);
-            new MobDataCard("卫道士", MobDataTier.HOSTILE, new ItemStack[]{
+            new MobDataCard("Vindicator", MobDataTier.HOSTILE, new ItemStack[]{
                     new ItemStack(Material.EMERALD, 64), new ItemStack(Material.BLACK_BANNER, 16), new ItemStack(Material.EMERALD, 64),
                     new ItemStack(Material.IRON_AXE, 1), MobData.EMPTY_DATA_CARD, new ItemStack(Material.IRON_AXE, 1),
                     new ItemStack(Material.EMERALD, 64), new ItemStack(Material.BLACK_BANNER, 16), new ItemStack(Material.EMERALD, 64),
@@ -104,7 +104,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.IRON_AXE, 10)
 
                     .register(plugin);
-            new MobDataCard("唤魔者", MobDataTier.HOSTILE, new ItemStack[]{
+            new MobDataCard("Evoker", MobDataTier.HOSTILE, new ItemStack[]{
                     new ItemStack(Material.EMERALD, 64), new ItemStack(Material.BLACK_BANNER, 16), new ItemStack(Material.EMERALD, 64),
                     new ItemStack(Material.TOTEM_OF_UNDYING, 1), MobData.EMPTY_DATA_CARD, new ItemStack(Material.TOTEM_OF_UNDYING, 1),
                     new ItemStack(Material.EMERALD, 64), new ItemStack(Material.BLACK_BANNER, 16), new ItemStack(Material.EMERALD, 64),
